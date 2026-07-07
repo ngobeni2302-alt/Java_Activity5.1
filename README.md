@@ -19,11 +19,13 @@ Implement the Java source structures inside their respective packages to make th
     * `flightNumber` (String)
     * `passengers` (List<Passenger>)
 * **Constructor:**
-    * `public Booking(String flightNumber)`: Map the flight number field and initialize the `passengers` list as a `new ArrayList<>()` to prevent `NullPointerException` bugs.
+    * `public Booking(String flightNumber)`: Map the flight number field and initialize the 
+    * `passengers` list as a `new ArrayList<>()` to prevent `NullPointerException` bugs.
 * **Composition Core Methods:**
     * `public void addPassenger(Passenger p)`: Append the passenger object to your collection list.
     * `public List<Passenger> getPassengers()`: Return the list of passengers.
-    * `public double calculateTotalLuggageWeight()`: Iterate through the passenger collection, accumulate every individual's luggage weight using their getter, and return the combined total.
+    * `public double calculateTotalLuggageWeight()`: Iterate through the passenger collection, 
+    * accumulate every individual's luggage weight using their getter, and return the combined total.
 
 ---
 
