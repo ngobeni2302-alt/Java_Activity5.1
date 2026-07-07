@@ -7,10 +7,12 @@ Implement the Java source structures inside their respective packages to make th
     * `name` (String)
     * `luggageWeightKg` (double)
 * **Constructor:**
-    * `public Passenger(String name, double luggageWeightKg)`: Initialize fields. Protect instantiation by filtering the weight parameter through your setter.
+    * `public Passenger(String name, double luggageWeightKg)`: Initialize fields. 
+    * Protect instantiation by filtering the weight parameter through your setter.
 * **Encapsulation Requirements:**
     * Create standard public getters for both fields (`getName()` and `getLuggageWeightKg()`).
-    * Create a public setter for weight: `public void setLuggageWeightKg(double weight)`. If the incoming value is negative (`< 0.0`), clamp it to `0.0`. Otherwise, assign the valid value.
+    * Create a public setter for weight: `public void setLuggageWeightKg(double weight)`. 
+    * If the incoming value is negative (`< 0.0`), clamp it to `0.0`. Otherwise, assign the valid value.
 
 #### 2. Complete `Booking.java`
 * **Instance Variables (Private):**
